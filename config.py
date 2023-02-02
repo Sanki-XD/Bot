@@ -12,8 +12,8 @@ API_HASH = os.environ.get("API_HASH", "d21e95895cf2a5b83b0167fdd3b6e541")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5846013903:AAHBWqk4HFLpc9NEMe-b4nAJrGuiJfgfsUk")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5761513990")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "ariyan104")
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://ariyan104:ariyan104@cluster0.1iptuzv.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5761513990")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(5761513990)
